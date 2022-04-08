@@ -4,15 +4,22 @@ def fizzbuzz(number)
   # while num < 21
     # num += 1
     if num % 3 == 0 && num % 5 != 0
-      puts 'fizz'
+      'fizz'
     elsif num % 5 == 0 && num % 3 != 0
-      puts 'buzz'
+      'buzz'
     elsif num % 3 == 0 && num % 5 == 0
-      puts 'fizzbuzz'
+      'fizzbuzz'
     else
-      puts num
+      num
     end
   end
 end
 
-fizzbuzz(15)
+# fizzbuzz(15)
+
+
+# I’d encourage you to think about what you expect 
+# fizzbuzz to do - should it return one thing? Print
+# to the console? return a whole list of things?. 
+# Once you know that, you can work on testing that 
+# behaviour that you want to see.
