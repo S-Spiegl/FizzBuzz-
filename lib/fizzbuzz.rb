@@ -15,11 +15,11 @@ def fizzbuzz(number)
   end
 end
 
-# fizzbuzz(15)
+print fizzbuzz(15)
 
 
-# I’d encourage you to think about what you expect 
+# I’d encourage you to think about what you expect
 # fizzbuzz to do - should it return one thing? Print
-# to the console? return a whole list of things?. 
-# Once you know that, you can work on testing that 
+# to the console? return a whole list of things?.
+# Once you know that, you can work on testing that
 # behaviour that you want to see.
